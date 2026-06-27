@@ -35,6 +35,7 @@ const facebookUrl = "https://www.facebook.com/people/KT-roofing/61573177970777/"
 const instagramUrl = "https://www.instagram.com/kt_roofing/";
 const googleShareUrl = "https://share.google/A01tcsV1xS69ju7bf";
 const mapsUrl = "https://www.google.com/maps/search/?api=1&query=KT%20Roofing%20Manchester";
+const mapEmbedUrl = "https://www.google.com/maps?q=KT%20Roofing%20Manchester&output=embed";
 
 const services = [
   {
@@ -60,10 +61,10 @@ const services = [
 ];
 
 const proofPoints = [
-  "Facebook page verifies KT Roofing in Manchester and lists roofing, tiling, slating, leadwork, chimneys, flat roofs, fascias and guttering.",
-  "Google share resolves to a KT Roofing listing with knowledge graph ID `/g/11ghlxqm4v`.",
-  "Instagram public bio confirms `kt_roofing` with the same service list and contact route.",
-  "Direct phone and email routes are visible in public snippets: 07468 598751 and Ktroofingx@hotmail.com.",
+  "Manchester roofing enquiries can go straight through by phone or email, with a clear route for urgent roof issues.",
+  "Core work covers tiled roofs, slate roofs, leadwork, chimney revamps, flat roofs, fascias and guttering.",
+  "Customers can share their area, roof issue, access details and preferred contact time before KT Roofing calls back.",
+  "The Google listing is linked and embedded below so visitors can quickly check the business route from the page.",
 ];
 
 const visuals = [
@@ -90,9 +91,9 @@ const visuals = [
 ];
 
 const faqs = [
-  ["Do they handle slate and tiled roofs?", "Yes. The public Facebook and Instagram descriptions list tiling and slating as core services."],
-  ["Can KT help with chimneys and leadwork?", "Yes. Leadwork and chimney revamps are listed in the public service description."],
-  ["Is there an email route?", "Yes. Public snippets list Ktroofingx@hotmail.com for enquiries."],
+  ["Do they handle slate and tiled roofs?", "Yes. KT Roofing lists tiling and slating as core services."],
+  ["Can KT help with chimneys and leadwork?", "Yes. Leadwork and chimney revamps are part of the service list."],
+  ["Is there an email route?", "Yes. Enquiries can be sent to Ktroofingx@hotmail.com."],
   ["What should I mention when I call?", "Share the postcode, what part of the roof is affected, when the issue started and whether access is straightforward."],
 ];
 
@@ -215,6 +216,7 @@ export default function Page() {
     email,
     areaServed: ["Manchester", "Greater Manchester"],
     url: "https://deanooooooooo.github.io/kt-roofing-manchester/",
+    hasMap: mapsUrl,
     sameAs: [facebookUrl, instagramUrl, googleShareUrl],
     description:
       "Manchester roofing contractor for tiling, slating, leadwork, chimney revamps, flat roofs, fascias and guttering.",
@@ -399,12 +401,18 @@ export default function Page() {
             </div>
             <p className="mt-7 flex items-center gap-2 text-base font-bold text-[#4d5b64]"><Clock3 size={20} /> Contact directly for availability and response times.</p>
           </div>
-          <div className="relative min-h-[420px] bg-[#111b22]">
-            <Image src={assets("service-leadwork.png")} alt="Leadwork visual on a slate roof" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover opacity-90" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#111b22]/84 via-transparent to-transparent" />
-            <div className="absolute bottom-0 p-6 text-white sm:p-8">
-              <p className="text-sm font-black uppercase text-sky-200">Manchester roofing contact</p>
-              <p className="mt-2 max-w-xl text-2xl font-black leading-tight">Call or email with the roof issue, postcode and the best time to arrange a look.</p>
+          <div className="relative min-h-[420px] overflow-hidden bg-[#111b22]">
+            <iframe
+              title="KT Roofing Google Maps listing"
+              src={mapEmbedUrl}
+              className="absolute inset-0 h-full w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#111b22]/92 via-[#111b22]/36 to-transparent p-6 text-white sm:p-8">
+              <p className="text-sm font-black uppercase text-sky-200">Google Maps</p>
+              <p className="mt-2 max-w-xl text-2xl font-black leading-tight">KT Roofing on Google Maps for quick route and listing checks.</p>
             </div>
           </div>
         </div>

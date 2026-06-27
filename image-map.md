@@ -12,7 +12,7 @@
 - Facebook/Instagram snippets identify: `KT Roofing`, Manchester.
 - Public service description: `All aspects of Roofing undertaken,Tiling,Slating,Lead work,Chimney,revamps,Flat roofs,facia,guttering`.
 - Public contact snippets: `07468598751`, `Ktroofingx@hotmail.com`.
-- No reliable public street address was available from no-login sources. No map embed is used.
+- No reliable public street address was available from no-login sources. Google Maps is embedded by listing/search query only: `KT Roofing Manchester`.
 - Written reviews/testimonials were not accessible, so no review cards are shown.
 
 ## Assets Used

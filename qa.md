@@ -31,4 +31,10 @@
 - Mobile hero/form screenshot - PASS
 - Gallery screenshot and crop inspection - PASS
 - Gallery movement measured locally: approximately `1003px` - PASS
-- Deployment/live QA - pending
+- GitHub Pages build status: `built` - PASS
+- Live HTML 200 and contains fresh KT Roofing markers - PASS
+- Live CSS 200 - PASS
+- Live hero image 200 - PASS
+- Live logo image 200 - PASS
+- Live browser check: one H1, one form, no iframe, mailto present - PASS
+- Live gallery movement measured: approximately `1003px` - PASS

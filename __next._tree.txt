@@ -1,2 +1,2 @@
-:HL["/kt-roofing-manchester/_next/static/chunks/0c2bcklcxhwj2.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"yz5R6qZjMVs49BLglnik1"}
+:HL["/kt-roofing-manchester/_next/static/chunks/1t0pk4t5itxnm.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"alORHhcH0jYI8DEfNCyi5"}
